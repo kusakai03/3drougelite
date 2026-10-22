@@ -1,0 +1,174 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 656953f44bf65a34da976d00863da6a8, type: 3}
+  m_Name: base_forest
+  m_EditorClassIdentifier: Assembly-CSharp::BiomeData
+  biomeID: base_forest
+  terrainMaterial: {fileID: 2100000, guid: 1cb16a843afbae042aa6f713693f9fbc, type: 2}
+  biomeTags: 377
+  obstacles:
+  - {fileID: 11400000, guid: 63e8c75d2a992f14a8bb94ce82c42606, type: 2}
+  - {fileID: 11400000, guid: c425358edae815e41a9921a5a3521b67, type: 2}
+  - {fileID: 11400000, guid: 185640845ad7e9748b94a4722af4d9f8, type: 2}
+  - {fileID: 11400000, guid: 8fb4ffef06b65d84db2053a077b9e5a4, type: 2}
+  - {fileID: 11400000, guid: 7a27e48a88dd3e343a8839436da80e8c, type: 2}
+  - {fileID: 11400000, guid: 8805fe836a17eea49947a35cc789339c, type: 2}
+  - {fileID: 11400000, guid: 4cb5296329170db4bae0af784cbb37d9, type: 2}
+  decorations:
+  - decoration: {fileID: 11400000, guid: 074337431143c1f4e8f288fdc6adca2c, type: 2}
+    minNoise: 0
+    maxNoise: 0.05
+    density: 1
+    noiseScale: 0.02
+    noiseOffset: {x: 0, y: 0}
+  - decoration: {fileID: 11400000, guid: 89c151ed8b9764749862e33a88045070, type: 2}
+    minNoise: 0.05
+    maxNoise: 0.1
+    density: 1
+    noiseScale: 0.05
+    noiseOffset: {x: 0, y: 0}
+  - decoration: {fileID: 11400000, guid: 940b2985b939752459c2b57da68f502e, type: 2}
+    minNoise: 0.1
+    maxNoise: 0.15
+    density: 1
+    noiseScale: 0.03
+    noiseOffset: {x: 0, y: 0}
+  - decoration: {fileID: 11400000, guid: 50ac36af5e16f764fa51dc6da7231505, type: 2}
+    minNoise: 0.15
+    maxNoise: 0.2
+    density: 1
+    noiseScale: 0.07
+    noiseOffset: {x: 0, y: 0}
+  - decoration: {fileID: 11400000, guid: e4184fcae3f3c4c499df04867c34e5c5, type: 2}
+    minNoise: 0.2
+    maxNoise: 0.3
+    density: 0.02
+    noiseScale: 0.5
+    noiseOffset: {x: 0, y: 0}
+  - decoration: {fileID: 11400000, guid: 4d2e4522b755d86439c5309db5448c2b, type: 2}
+    minNoise: 0
+    maxNoise: 1
+    density: 1
+    noiseScale: 0.05
+    noiseOffset: {x: 0, y: 0}
+  - decoration: {fileID: 11400000, guid: 5faa3dbbc37184741b31cb3cb666c860, type: 2}
+    minNoise: 0
+    maxNoise: 1
+    density: 0.21
+    noiseScale: 0.05
+    noiseOffset: {x: 0, y: 0}
+  - decoration: {fileID: 11400000, guid: fe012bc8e7d23ab4e82d24e15bfeafb7, type: 2}
+    minNoise: 0.1
+    maxNoise: 0.12
+    density: 0.08
+    noiseScale: 0.05
+    noiseOffset: {x: 0, y: 0}
+  - decoration: {fileID: 11400000, guid: f22dada3dc7c9074c8e6a4cb9e309b76, type: 2}
+    minNoise: 0.08
+    maxNoise: 0.1
+    density: 0.17
+    noiseScale: 0.05
+    noiseOffset: {x: 0, y: 0}
+  - decoration: {fileID: 11400000, guid: dc5844648cb3f64428bc852f24d0f8d7, type: 2}
+    minNoise: 0.06
+    maxNoise: 0.8
+    density: 0.03
+    noiseScale: 0.05
+    noiseOffset: {x: 0, y: 0}
+  - decoration: {fileID: 11400000, guid: a199cc70192fbe248b2583608a50d8ab, type: 2}
+    minNoise: 0
+    maxNoise: 1
+    density: 0.01
+    noiseScale: 0.05
+    noiseOffset: {x: 0, y: 0}
+  - decoration: {fileID: 11400000, guid: 0cd531acb8c0aad48b3a893e184182d0, type: 2}
+    minNoise: 0
+    maxNoise: 1
+    density: 0.001
+    noiseScale: 0.05
+    noiseOffset: {x: 0, y: 0}
+  - decoration: {fileID: 11400000, guid: 713f09674758bcb4d9b6b23a387f678e, type: 2}
+    minNoise: 0
+    maxNoise: 1
+    density: 0.001
+    noiseScale: 0.05
+    noiseOffset: {x: 0, y: 0}
+  - decoration: {fileID: 11400000, guid: 1fc10b58ff7def9429bbb98502964e6b, type: 2}
+    minNoise: 0
+    maxNoise: 1
+    density: 0.001
+    noiseScale: 0.05
+    noiseOffset: {x: 0, y: 0}
+  walkableDecorations:
+  - decoration: {fileID: 11400000, guid: a199cc70192fbe248b2583608a50d8ab, type: 2}
+    minNoise: 0
+    maxNoise: 1
+    density: 0.001
+    noiseScale: 0.04
+    noiseOffset: {x: 0, y: 0}
+  - decoration: {fileID: 11400000, guid: deef49465bd984541aecf4b776f65274, type: 2}
+    minNoise: 0
+    maxNoise: 1
+    density: 0.001
+    noiseScale: 0.04
+    noiseOffset: {x: 0, y: 0}
+  - decoration: {fileID: 11400000, guid: ed542ea89e0cfdd4494d1e684ecbb055, type: 2}
+    minNoise: 0
+    maxNoise: 1
+    density: 0.001
+    noiseScale: 0.04
+    noiseOffset: {x: 0, y: 0}
+  - decoration: {fileID: 11400000, guid: f22dada3dc7c9074c8e6a4cb9e309b76, type: 2}
+    minNoise: 0.92
+    maxNoise: 1
+    density: 0.01
+    noiseScale: 0.04
+    noiseOffset: {x: 0, y: 0}
+  - decoration: {fileID: 11400000, guid: 1b771e9008b8da14dbfc17f63b4693c2, type: 2}
+    minNoise: 0.34
+    maxNoise: 0.45
+    density: 0.01
+    noiseScale: 0.04
+    noiseOffset: {x: 0, y: 0}
+  - decoration: {fileID: 11400000, guid: d1db4c60ba4dfec4294257fc3695c7b0, type: 2}
+    minNoise: 0.34
+    maxNoise: 0.45
+    density: 0.01
+    noiseScale: 0.04
+    noiseOffset: {x: 0, y: 0}
+  - decoration: {fileID: 11400000, guid: a99d868038000ef449fdea00ea1aa228, type: 2}
+    minNoise: 0.34
+    maxNoise: 0.45
+    density: 0.01
+    noiseScale: 0.04
+    noiseOffset: {x: 0, y: 0}
+  - decoration: {fileID: 11400000, guid: 7537afe62f24e5549b8644dd01542520, type: 2}
+    minNoise: 0.34
+    maxNoise: 0.45
+    density: 0.01
+    noiseScale: 0.04
+    noiseOffset: {x: 0, y: 0}
+  - decoration: {fileID: 11400000, guid: ff80ae119279aad40bf1a6152ab0e73e, type: 2}
+    minNoise: 0.34
+    maxNoise: 0.45
+    density: 0.01
+    noiseScale: 0.04
+    noiseOffset: {x: 0, y: 0}
+  mapWidth: 500
+  mapHeight: 500
+  terrainHeight: 0.3
+  nonWalkableHeight: 0.4
+  hasWater: 0
+  waterLevel: 0
+  skyboxMaterial: {fileID: 2100000, guid: d138f14d4d6c77f449776632e62931e5, type: 2}
+  lightIntensity: 2
+  lightTemperature: 5000

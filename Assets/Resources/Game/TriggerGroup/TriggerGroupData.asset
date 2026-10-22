@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fec45cfcbaf0e40449b478db43eab8f2, type: 3}
+  m_Name: TriggerGroupData
+  m_EditorClassIdentifier: Assembly-CSharp::TriggerGroupData
+  spawnTag: 257
+  randomTriggerNodes:
+  - triggerData: {fileID: 11400000, guid: 8bc4b4816e1d3764b8e1044355655db7, type: 2}
+    width: 10
+    height: 15
+  - triggerData: {fileID: 11400000, guid: 93167a3cd1f8c7d42a81e1c80a2bd34a, type: 2}
+    width: 40
+    height: 40
+  uniqueTriggerNodes:
+  - triggerData: {fileID: 11400000, guid: beff3fd145737c9498f4ddca2cf2ac5c, type: 2}
+    width: 60
+    height: 60

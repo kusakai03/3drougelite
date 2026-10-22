@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13585ff0c791e28458070381e022ebfb, type: 3}
+  m_Name: to_lighter
+  m_EditorClassIdentifier: Assembly-CSharp::ThrowObj
+  itemID: to_lighter
+  itemName: Lighter
+  description: 
+  icon: {fileID: 21300000, guid: ca44cff367ceeec4f9a0db29b20955b2, type: 3}
+  itemType: 0
+  rarity: 1
+  projectilePrefab: {fileID: 5245118687196238729, guid: b7bf43ca535a5904a8f09bc6b00b8041, type: 3}
+  hitProjectilePrefab: {fileID: 0}
+  damageType: 0
+  weight: 1
+  throwDelay: 0.2
+  hitBehavior: 2
+  bounceCount: 0
+  bouncePower: 0
+  ammoCost: 1
+  throwSfx: {fileID: 0}
+  hitSfx: {fileID: 0}

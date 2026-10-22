@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26ae3c75533d53d44b70d32debef0bf4, type: 3}
+  m_Name: base_stage
+  m_EditorClassIdentifier: Assembly-CSharp::StageSettings
+  stageID: base_stage
+  numberOfRooms: 3
+  biome: {fileID: 11400000, guid: 5fb9e766fd3eb754d85915b4a4f41c6b, type: 2}
+  useTriggerGroup: 1
+  nodeCount: 28
+  globalTriggerNodes:
+  - triggerData: {fileID: 11400000, guid: 47688809f69d9c54eaef34252a3f600d, type: 2}
+    width: 30
+    height: 30
+  - triggerData: {fileID: 11400000, guid: feb5e9b8429011042a6d062503f6f030, type: 2}
+    width: 20
+    height: 20
+  - triggerData: {fileID: 11400000, guid: 6f1cd58637426bb47923b7cf9fbf58b5, type: 2}
+    width: 20
+    height: 20
+  - triggerData: {fileID: 11400000, guid: 3e6ac013836317445946bf332dbed26d, type: 2}
+    width: 20
+    height: 20
+  takeDamage: 1
+  hasKeyRoom: 1
+  roomLevel: 10
+  merchantSandbox: 0

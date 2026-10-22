@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 656953f44bf65a34da976d00863da6a8, type: 3}
+  m_Name: base_lake_practice
+  m_EditorClassIdentifier: Assembly-CSharp::BiomeData
+  biomeID: base_lake
+  terrainMaterial: {fileID: 2100000, guid: 5924bb4d0ea8c42468425c5e48cecac0, type: 2}
+  biomeTags: 768
+  obstacles: []
+  decorations:
+  - decoration: {fileID: 11400000, guid: 4d2e4522b755d86439c5309db5448c2b, type: 2}
+    minNoise: 0
+    maxNoise: 1
+    density: 0.172
+    noiseScale: 0.26
+    noiseOffset: {x: 0, y: 0}
+  - decoration: {fileID: 11400000, guid: 5faa3dbbc37184741b31cb3cb666c860, type: 2}
+    minNoise: 0
+    maxNoise: 1
+    density: 0.172
+    noiseScale: 0.26
+    noiseOffset: {x: 0, y: 0}
+  - decoration: {fileID: 11400000, guid: deef49465bd984541aecf4b776f65274, type: 2}
+    minNoise: 0
+    maxNoise: 1
+    density: 0.024
+    noiseScale: 0.14
+    noiseOffset: {x: 0, y: 0}
+  - decoration: {fileID: 11400000, guid: ed542ea89e0cfdd4494d1e684ecbb055, type: 2}
+    minNoise: 0
+    maxNoise: 1
+    density: 0.028
+    noiseScale: 0.1
+    noiseOffset: {x: 0, y: 0}
+  walkableDecorations:
+  - decoration: {fileID: 11400000, guid: e4184fcae3f3c4c499df04867c34e5c5, type: 2}
+    minNoise: 0
+    maxNoise: 1
+    density: 0.014
+    noiseScale: 0.04
+    noiseOffset: {x: 0, y: 0}
+  - decoration: {fileID: 11400000, guid: f22dada3dc7c9074c8e6a4cb9e309b76, type: 2}
+    minNoise: 0
+    maxNoise: 0.357
+    density: 0.167
+    noiseScale: 0.04
+    noiseOffset: {x: 0, y: 0}
+  - decoration: {fileID: 11400000, guid: dc5844648cb3f64428bc852f24d0f8d7, type: 2}
+    minNoise: 0
+    maxNoise: 0.357
+    density: 0.167
+    noiseScale: 0.04
+    noiseOffset: {x: 0, y: 0}
+  - decoration: {fileID: 11400000, guid: 4d2e4522b755d86439c5309db5448c2b, type: 2}
+    minNoise: 0
+    maxNoise: 1
+    density: 0.678
+    noiseScale: 0.04
+    noiseOffset: {x: 0, y: 0}
+  - decoration: {fileID: 11400000, guid: 5faa3dbbc37184741b31cb3cb666c860, type: 2}
+    minNoise: 0
+    maxNoise: 1
+    density: 0.678
+    noiseScale: 0.04
+    noiseOffset: {x: 0, y: 0}
+  - decoration: {fileID: 11400000, guid: 0cd531acb8c0aad48b3a893e184182d0, type: 2}
+    minNoise: 0
+    maxNoise: 1
+    density: 0.005
+    noiseScale: 0.04
+    noiseOffset: {x: 0, y: 0}
+  - decoration: {fileID: 11400000, guid: 713f09674758bcb4d9b6b23a387f678e, type: 2}
+    minNoise: 0
+    maxNoise: 1
+    density: 0.005
+    noiseScale: 0.04
+    noiseOffset: {x: 0, y: 0}
+  - decoration: {fileID: 11400000, guid: 1fc10b58ff7def9429bbb98502964e6b, type: 2}
+    minNoise: 0
+    maxNoise: 1
+    density: 0.005
+    noiseScale: 0.04
+    noiseOffset: {x: 0, y: 0}
+  mapWidth: 150
+  mapHeight: 150
+  terrainHeight: 0.4
+  nonWalkableHeight: -1.4
+  hasWater: 1
+  waterLevel: -0.2
+  skyboxMaterial: {fileID: 2100000, guid: d138f14d4d6c77f449776632e62931e5, type: 2}
+  lightIntensity: 0.1
+  lightTemperature: 4000
